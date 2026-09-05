@@ -1,0 +1,11 @@
+# Pinned to the versions this project was tested against. The unpinned
+# original resolved to a ChromaDB major version the code predated.
+chromadb==1.5.9
+pypdf==6.16.2
+streamlit==1.62.0
+python-dotenv==1.2.3
+requests==2.34.2
+
+# Only needed for the Anthropic backend. Ollama and Gemini use plain HTTP,
+# so leave this out if you are not using Claude.
+# anthropic==1.2.0
